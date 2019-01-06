@@ -1,0 +1,68 @@
+td{
+	
+	width: 100px;
+	height: 100px;
+}
+table{
+	align-self: center;
+	margin:auto;
+	background: green;
+}
+
+h1{
+	text-align: center;
+}
+
+
+
+
+.row1col1{
+border: 0.5px solid black;
+border-left: 0px;
+border-top: 0px;
+background: yellow;
+}
+.row1col2{
+border: 0.5px solid black;
+border-top: 0px;
+background: yellow;
+}
+
+.row1col3{
+border: 0.5px solid black;
+border-top: 0px;
+border-right: 0px;
+background: yellow;
+}
+
+.row2col1{
+border: 0.5px solid black;
+border-left: 0px;
+}
+.row2col2{
+border: 0.5px solid black;
+}
+.row2col3{
+border: 0.5px solid black;
+border-right: 0px;
+}
+
+.row3col1{
+border: 0.5px solid black;
+border-left: 0px;
+border-bottom: 0px;
+background: blue;
+}
+.row3col2{
+border: 0.5px solid black;
+border-bottom: 0px;
+background: blue;
+}
+.row3col3{
+border: 0.5px solid black;
+border-right: 0px;
+border-bottom: 0px;
+background: blue;
+}
+
+

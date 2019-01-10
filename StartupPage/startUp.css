@@ -4,7 +4,8 @@ body{
 	/*background : url(https://images.unsplash.com/photo-1518600654093-2a24cddafa38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1417&q=80);*/
 	background : url(https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80);
 	background-position: center;
-	background-size:cover;
+	background-size: cover;
+	background-repeat: no-repeat;
 	font-family : Lato;
 	color:white;
 }
@@ -25,5 +26,13 @@ hr {
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 				 0px 8px 13px rgba(0,0,0,0.1),
 				 0px 18px 23px rgba(0,0,0,0.1);
+}
+@media (max-width: 768px) {
+   h1 {
+       font-size: 2.5em; 
+   }
 
+   h3 {
+       font-size: 1em;
+   }
 }

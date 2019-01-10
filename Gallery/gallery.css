@@ -21,3 +21,13 @@ body{
 .navbar-inverse  .navbar-brand{
 	color:white;
 }
+
+@media (max-width: 768px) {
+   h1 {
+       font-size: 2.5em; 
+   }
+
+   h3 {
+       font-size: 1em;
+   }
+}

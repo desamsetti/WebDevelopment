@@ -1,0 +1,7 @@
+ErrorDocument 403 /Hostello/error.php
+ErrorDocument 404 /Hostello/error.php
+ErrorDocument 405 /Hostello/error.php
+ErrorDocument 408 /Hostello/error.php
+ErrorDocument 500 /Hostello/error.php
+ErrorDocument 502 /Hostello/error.php
+ErrorDocument 504 /Hostello/error.php

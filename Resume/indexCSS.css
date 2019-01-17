@@ -1,0 +1,235 @@
+body
+{
+margin:0;
+padding:0;
+font-family:verdana;
+}
+
+#fullpage
+{
+height:100vh;
+}
+#fullpage section
+{
+height:100vh;
+}
+
+#fullpage section h1
+{
+margin:0;
+padding:0;
+text-align:center;
+}
+
+#fullpage section:nth-child(1)
+{
+background:#ffffff;
+}
+
+
+
+#fullpage section:nth-child(2)
+{
+background-image:url("img/technology.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+#fullpage section:nth-child(3)
+{
+background:#ffffff;
+}
+
+
+#fullpage section:nth-child(4)
+{
+background:#D3D3D3;
+}
+
+
+#fullpage section:nth-child(5)
+{
+background:#ffffff;
+}
+  
+h1.text1{ 
+    color:white;
+    font-family: Arial Black;
+    font-size:120px;
+    text-shadow: 4px 4px #C0C0C0;
+    padding:30px;
+    
+}
+
+h1.text2{ 
+    color:black;
+    font-family: Arial Black;
+    font-size:120px;
+    text-shadow: 4px 4px #C0C0C0;
+    padding:30px;
+    
+}
+
+h1.text3{ 
+    color:black;
+    font-family: Arial Black;
+    font-size:40px;
+    text-shadow: 4px 4px #C0C0C0;
+    padding:30px;
+    
+}
+
+h1.text4{ 
+    color:white;
+    font-family: Arial Black;
+    font-size:40px;
+    padding:30px;
+}
+
+h1.text5{ 
+    color:white;
+    font-family: Arial Black;
+    font-size:25px;
+    padding:30px;
+}
+
+
+h2.h2text1
+{
+    color:white;
+    font-family: Arial Black;
+    font-size:40px;
+    font-weight: bold;
+    padding:30px;
+}
+
+
+p.ptext1
+{
+
+text-align:center;
+font-size:12px;
+font-family:Arial Black;
+letter-spacing:2px;
+padding:30px;
+
+}
+
+
+p.ptext2
+{
+
+text-align:center;
+font-size:20px;
+letter-spacing:2px;
+padding:30px;
+}
+
+
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    size:10px;
+}
+
+  
+  
+body {
+    width:100%;
+    font-family: Arial;
+    padding-top:0px;
+}
+
+div
+{
+padding-top:0px;
+}
+
+.split {
+    height: 400px;
+    width: 100%;
+    background-color:#ffffff;
+    text-color:white;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top:0px;
+}
+
+
+
+.left {
+    left: 0;
+    background-color: #111;
+    text-color:white;
+}
+
+.right {
+    right: 0;
+    background-color: red;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    text-shadow: 4px 4px #C0C0C0;
+}
+
+.texter
+{
+   position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size:90pt;
+    color:#000000;
+    text-shadow: 4px 4px #C0C0C0;
+    font-weight: bold;
+    font-family:Arial
+    
+}
+
+
+.subtexter
+{
+  position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size:90pt;
+    color:#DAD9D9;
+    font-family:Arial;
+    font-weight: bold;
+    text-shadow: 4px 4px #C0C0C0;
+}
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+
+.section2Text
+{
+font-size:400px;
+
+
+}
+
+
+hr
+{
+color: #000000;
+background-color: #000000;
+height: 5px;
+width:100%;
+
+}

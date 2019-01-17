@@ -210,6 +210,19 @@ padding-top:0px;
     font-weight: bold;
     text-shadow: 4px 4px #C0C0C0;
 }
+.displaytexter
+{
+  position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size:30pt;
+    color:#000000;
+    font-family:Arial;
+    font-weight: bold;
+    text-shadow: 4px 4px #C0C0C0;
+}
 .centered img {
     width: 150px;
     border-radius: 50%;

@@ -7,6 +7,15 @@
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<style>
+.container {
+  display: flex; /* or inline-flex */
+}
+.container {
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+</style>
 </head>
 <body>
 	<!--<div class="container">
@@ -43,8 +52,8 @@
 
 -->
 
-<div class="container">
-  <!--<div class="row justify-content-md-center" style="border:1px solid black;">
+<!--<div class="container">
+  <div class="row justify-content-md-center" style="border:1px solid black;">
   	<div class="col col-lg-2">
   		1 of 3
   	</div>
@@ -100,7 +109,7 @@
 	<!--<div class="row justify-content-md-center">
 		<div class="col-12 col-md-8" style="border:1px solid black">.col-12 .col-md-8</div>
 		<div class="col-6 col-md-4" style="border:1px solid black">.col-6 .col-md-4</div>
-	</div>-->
+	</div>
 
 	<div class="row">
 		<div class="col-6 col-md-4" style="border:1px solid black">.col6 .col-md-4</div>
@@ -108,18 +117,113 @@
 		<div class="col-6 col-md-4" style="border:1px solid black">.col-6 .col-md-4</div>
 	</div>
 
+
+
+
+	<div class="row">
+		<div class="col-6" style="border:1px solid black">.col-6</div>
+		<div class="col-6" style="border:1px solid black">.col-6</div>
+	</div>
+
+</div>
+
+
+
+<div class="container" style="background-color:pink">
+	<div class="row align-items-start" style="border:1px solid black;padding: 50px">
+		<div class="col" style="border:1px solid black">
+			One of three columns
+		</div>
+		<div class="col" style="border:1px solid black">
+			One of three columns
+		</div>
+		<div class="col" style="border:1px solid black">
+			One of three columns
+		</div>
+	</div>
+
+	<div class="row align-items-center" style="border:1px solid black;padding: 50px">
+		<div class="col" style="border:1px solid black">
+			One of three columns
+		</div>
+		<div class="col" style="border:1px solid black">
+			One of three columns
+		</div>
+		<div class="col" style="border:1px solid black">
+			One of three columns
+		</div>
+	</div>
+	<div class="row align-items-end" style="border:1px solid black;padding: 50px">
+		<div class="col" style="border:1px solid black">
+			One of three columns
+		</div>
+		<div class="col" style="border:1px solid black">
+			One of three columns
+		</div>
+		<div class="col" style="border:1px solid black">
+			One of three columns
+		</div>
+	</div>
+
+</div>
+
+
+<div class="container" style="background-color:orange;">
+	<div class="row">
+		<div class="col align-self-start" style="border:1px solid black">
+			One of three columns
+		</div>
+		<div class="col align-self-center" style="border:1px solid black">
+			One of three columns
+		</div>
+		<div class="col align-self-end" style="border:1px solid black">
+			One of three columns
+		</div>
+	</div>
 </div>
 
 
 
 
+<div class="row" style="border:1px solid black">
+  <div class="col-9" style="border:1px solid black">.col-9</div>
+  <div class="col-4" style="border:1px solid black">.col-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+  <div class="col-6" style="border:1px solid black">.col-6<br>Subsequent columns continue along the new line.</div>
+</div>
+
+
+-->
 
 
 
 
 
+<div class="container">
+	<div class="row">
+		<div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+		<div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+
+		<div class="w-100"></div>
+
+		<div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+		<div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+	</div>
+</div>
 
 
+<div class="container">
+  <div class="row">
+    <div class="col order-last">
+      First, but last
+    </div>
+    <div class="col">
+      Second, but unordered
+    </div>
+    <div class="col order-first">
+      Third, but first
+    </div>
+  </div>
+</div>
 
 
 

@@ -30,6 +30,13 @@ Try
 		/*background: url("img/macbook3Image.jpg") center center/ cover no-repeat;*/
 	}		
 
+	#content{
+	text-align : center;	
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
 	div{
 		 text-align: justify;
 		 text-justify: inter-word;
@@ -42,25 +49,76 @@ Try
 </head>
 <body>
 	<!--NAVIGATION BAR-->
-	<nav class="navbar bg-dark navbar-dark">
+	<!--<nav class="navbar bg-dark navbar-dark">
 		<div class="container">
 			<a href="" class="navbar-brand"><i class="fas fa-laptop-code mr-2"></i>HARSHITH DESAMSETTI</a>
-			<h6 style="color: white">+1(312) 536-5336  ||  <a href="mailto:dharshith1996@gmail.com" class=""><i class="fas fa-envelope-square"></i> dharshith1996@gmail.com</a>
-		</div>	
-	</nav>
+			<h6 style="color: white">+1(312) 536-5336  ||  <a href="mailto:dharshith1996@gmail.com" class=""><i class="fas fa-envelope-square"></i> dharshith1996@gmail.com</a>				
+		</div>		
+	</nav>-->
+
+
+<section id="navbarSection">
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">        
+        <a href="" class="navbar-brand"><i class="fas fa-laptop-code mr-2" style="color: white"></i><strong>HARSHITH DESAMSETTI</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#navbarSection" style="color:white">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="link" href="#skillsSection" style="color:white">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="link" href="#gallery" style="color:white">Work Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="link" href="#gallery" style="color:white">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="link" href="#gallery" style="color:white">Education</a>
+                </li>                            
+                <li class="nav-item">
+                    <a class="nav-link" id="link" href="#element_target" style="color:white">Resume</a>
+                </li>
+
+                    
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" style="color:white;"
+                        aria-haspopup="true" aria-expanded="false">
+                        Quick Links
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/harshithdesamsetti/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a class="dropdown-item" href="https://github.com/desamsetti" target="_blank"><i class="fab fa-github-square"></i> GitHub</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Facebook</a>
+                        
+                    </div>
+                </li>
+            </ul>          
+        </div>
+    </nav>
+</section>
+
+
 
 	<!--JUMBOTRON-->
-	<section id="header" class="jumbotron text-center
-	">
-		<h1 class="display-3" style="font-size: 8em"><b><strong>HARSHITH DESAMSETTI</strong></b></h1>
+	<section id="header" class="jumbotron text-center" style="margin: 0">		
+		<div id="content">
+			<h1 class="display-3" style="font-size: 8em"><b><strong>HARSHITH DESAMSETTI</strong></b></h1>		
+		</div>
+		<p class="lead"><b><strong>I am a Masters Degree student in Computer Science at Northern Illinois University. I am currently working as Graduate Teaching Assistant for Introduction to C++ course.
 
-		<p class="lead"><b>I am a Masters Degree student in Computer Science at Northern Illinois University. I am currently working as Graduate Teaching Assistant for Introduction to C++ course.
+I am also a huge fan and follower of both Steve Jobs and Bill Gates. They are my inspiration and made me took up the Computer Science area.	</strong></b></p>
 
-I am also a huge fan and follower of both Steve Jobs and Bill Gates. They are my inspiration and made me took up the Computer Science area.	</b></p>
+		<a href="https://www.linkedin.com/in/harshithdesamsetti/" class="btn btn-primary mb-4" target="_blank"><i class="fab fa-linkedin"></i> View LinkedIn</a>
 
-		<a href="https://www.linkedin.com/in/harshithdesamsetti/" class="btn btn-primary mb-4" target="_blank">View LinkedIn</a>
-
-		<a href="https://github.com/desamsetti" class="btn btn-success mb-4" target="_blank">View GitHub</a>
+		<a href="https://github.com/desamsetti" class="btn btn-success mb-4" target="_blank"><i class="fab fa-github-square"></i> View GitHub</a>
 
 		<a href="" class="btn btn-primary mb-4">View Resume</a>
 		
@@ -140,7 +198,8 @@ I am also a huge fan and follower of both Steve Jobs and Bill Gates. They are my
 			<div class="row">
 				<div class="col-lg-4 mb-4">
 					<div class="card border-info mb-3">
-						<img class="card-img-top" src="img/macbook1Image.jpg" alt="">
+						<!--<img class="card-img-top" src="img/macbook1Image.jpg" alt="">-->
+						<img class="card-img-top" src="img/HarshithNewImage.jpg" alt="">
 						 <div class="card-header">
     								<strong>WORK EXPERIENCE</strong>
   								</div>
@@ -277,7 +336,7 @@ I am also a huge fan and follower of both Steve Jobs and Bill Gates. They are my
 			
 
 
-<div class="container">
+<!--<div class="container">
 <div class="row">
 <div class="col-lg-4 mb-4">
 
@@ -335,7 +394,7 @@ Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richa
 
 
 
-
+-->
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

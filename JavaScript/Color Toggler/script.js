@@ -1,22 +1,16 @@
 var toggler = false;
 var button = document.querySelector("button");
 button.addEventListener("click",function(){
-	console.log("Button has been clicked");
-	if(toggler===true)
+	if(toggler)
 	{
-
-		document.body.style.background = "purple";
-		console.log(toggler);
-		
+		document.body.style.background = "white";			
+		button.style.background = "purple";
 		toggler = false;
-		console.log("Inside IF");
 	}
 	else
 	{
-		document.body.style.background = "white";
-		console.log(toggler);
-		
-		toggler = true;
-		console.log("Inside ELSE");
+		document.body.style.background = "purple";
+		button.style.background = "white";
+		toggler = true;		
 	}
 });

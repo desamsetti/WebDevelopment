@@ -13,4 +13,18 @@ button.addEventListener("click",function(){
 		button.style.background = "white";
 		toggler = true;		
 	}
+	//toggler = !toggler;
 });
+
+
+/*
+button.addEventListener("click",function()
+{
+	document.body.classList.toggle("purple");
+})
+//HTML
+.purple
+{
+	background : purple;
+}
+*/

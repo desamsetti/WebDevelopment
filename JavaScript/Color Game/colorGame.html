@@ -5,10 +5,18 @@
 	<link rel="stylesheet" type="text/css" href="colorGame.css">
 </head>
 <body>
-	<h1>The Great <span id="colorDisplay">RGB</span> Color Game</h1>
-	<div>
+	<h1>The Great
+		<br>
+		<span id="colorDisplay">RGB</span>
+		<br>
+	Color Game</h1>
+	<div id="stripe">
+		<button id="reset">New Colors</button>
 		<span id="message"></span>
-	</div>
+		<button id="easyBtn">Easy</button>
+		<button id="hardBtn" class="selected">Hard</button>
+		
+	</div>	
 	<div id="container">
 		<div class="square"></div>
 		<div class="square"></div>
@@ -17,6 +25,6 @@
 		<div class="square"></div>
 		<div class="square"></div>
 		<script type="text/javascript" src="colorGame.js"></script>
-	</div>	
+	</div>
 </body>
 </html>

@@ -13,6 +13,11 @@ img{
 	width: 30%;
 	float:left;
 	margin: 1.66%;
+	transition:all 0.3s;
+}
+img:hover{	
+	color:green;
+	background: red;
 }
 p{
 	font-family: "Raleway";

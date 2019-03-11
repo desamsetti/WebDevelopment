@@ -1,0 +1,37 @@
+<% include partials/header %>
+
+<head>
+    <style>
+        table,th,td{
+            text-align:center;
+        }
+        table, th, td {
+             border: 1px solid black;
+        }
+    </style>
+</head>
+<div class="container">
+    
+    <h1 style="font-size:4em;text-align:center"><strong><%= superhero.title%></strong></h1>
+    <img src="<%= superhero.image %>" width="100%">
+    
+    
+    <br>
+    <table border="4" width="100%">
+        <tr`>
+            <th><h1><strong>Title</strong></h1></th>
+            <th><h1><strong>Name</strong></h1></th>
+            <th><h1><strong>Country</strong></h1></th>
+            <th><h1><strong>Main Power</strong></h1></th>
+        </tr>
+        <tr>
+            <td><h1><%= superhero.title %></h1></td>
+            <td><h1><%= superhero.name %></h1></td>
+            <td><h1><%= superhero.country %></h1></td>
+            <td><h1><%= superhero.mainpower %></h1></td>
+        </tr>
+    </table>
+    <a href="/superheroes" style="font-size:2em;text-align:center">Back</a>
+</div>
+
+<% include partials/footer %>

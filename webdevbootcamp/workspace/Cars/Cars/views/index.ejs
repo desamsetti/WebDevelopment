@@ -1,0 +1,46 @@
+<% include partials/header %>
+
+<head>
+   <style>
+           .jumbotron {
+           background-image: url(http://www.pngmart.com/files/3/Aventador-PNG-Image.png);
+           background-repeat:repeat-y;
+   }
+   </style>
+</head>
+
+<div class="container">
+   <header class="jumbotron">
+      <div class="container">
+         <h1 style="color:white"><strong>Welcome to SuperCars Page</strong></h1>
+         <p style="color:white">View our hand-picked SuperCars</p>
+         <p>
+            <a class="btn btn-primary btn-lg" href="/carsdisplay/new">Add New SuperCar</a>
+         </p>
+      </div>
+   </header>
+   
+   
+   <div class="row text-center" style="display:flex; flex-wrap: wrap;">
+        <% allCars.forEach(function(eachCar){ %>
+        <div class="col-md-3 col-sm-6">
+            <div class="thumbnail">
+                <img src="<%= eachCar.image%>">
+                <div class="caption">
+                    <h4><%= eachCar.company %> <%= eachCar.name %></h4>
+                </div>
+                <p>
+                    <a href="/carsdisplay/<%= eachCar._id %>" class="btn btn-primary">More Info</a>
+                </p>
+            </div>
+        </div>
+    <% }); %>
+    </div>
+   
+   
+   
+   <a href="/">Landing Page</a>
+   <br>
+</div>
+
+<% include partials/footer %>

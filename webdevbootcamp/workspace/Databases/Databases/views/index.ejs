@@ -1,0 +1,44 @@
+<% include partials/header %>
+
+<head>
+   <style>
+           .jumbotron {
+           background-image: url(https://img00.deviantart.net/8d02/i/2015/114/1/f/justice_league___the_animated_series_by_az_i_am-d5gn3ok.jpg);
+           background-size: cover;
+   }
+   </style>
+</head>
+
+<div class="container">
+   <header class="jumbotron">
+      <div class="container">
+         <h1 style="color:white"><strong>Welcome to SuperHeroes Page</strong></h1>
+         <p style="color:white">View our hand-picked SuperHeroes</p>
+         <p>
+            <a class="btn btn-primary btn-lg" href="/superheroes/new">Add New SuperHero</a>
+         </p>
+      </div>
+   </header>
+   
+   
+   <div class="row text-center" style="display:flex; flex-wrap:wrap;">
+      <% allSuperheroes.forEach(function(eachSuperhero){ %>   
+      <div class="col-md-3 col-sm-6">
+         <div class="thumbnail">
+            <img src="<%= eachSuperhero["image"]%>" alt="Image">
+            <div class="caption">
+               <h4><%= eachSuperhero["title"]%></h4>
+            </div>
+            <a href="/superheroes/<%= eachSuperhero._id %>" class="btn btn-primary">More Info</a>
+         </div>
+      </div>
+      <% }); %>
+   </div>
+   
+   
+   
+   <a href="/">Landing Page</a>
+   <br>
+</div>
+
+<% include partials/footer %>

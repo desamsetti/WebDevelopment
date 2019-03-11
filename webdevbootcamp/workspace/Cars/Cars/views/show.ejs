@@ -1,0 +1,35 @@
+<% include partials/header %>
+
+<head>
+    <style>
+        table,th,td{
+            text-align:center;
+        }
+        table, th, td {
+             border: 1px solid black;
+        }
+    </style>
+</head>
+<div class="container">
+    
+    <h1 style="font-size:4em;text-align:center"><strong><%= eachCar.title%></strong></h1>
+    <img src="<%= eachCar.image %>" width="100%">
+    
+    
+    <br>
+    <table border="4" width="100%">
+        <tr`>
+            <th><h1><strong>Company</strong></h1></th>
+            <th><h1><strong>Name</strong></h1></th>
+            <th><h1><strong>Price</strong></h1></th>
+        </tr>
+        <tr>
+            <td><h1><%= eachCar.company %></h1></td>
+            <td><h1><%= eachCar.name %></h1></td>
+            <td><h1><%= eachCar.price %></h1></td>
+        </tr>
+    </table>
+    <a href="/carsdisplay" style="font-size:2em;text-align:center">Back</a>
+</div>
+
+<% include partials/footer %>

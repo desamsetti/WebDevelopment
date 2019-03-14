@@ -29,6 +29,12 @@
             <td><h1><%= eachCar.price %></h1></td>
         </tr>
     </table>
+    
+    <a class="btn btn-lg btn-primary" href="/carsdisplay/<%= eachCar._id %>/edit">Edit</a>
+    <form id="delete" action="/carsdisplay/<%= eachCar._id %>?_method=DELETE" method="POST">
+        <button class="btn btn-lg-btn-danger">Delete</button>
+    </form>
+
     <a href="/carsdisplay" style="font-size:2em;text-align:center">Back</a>
 </div>
 

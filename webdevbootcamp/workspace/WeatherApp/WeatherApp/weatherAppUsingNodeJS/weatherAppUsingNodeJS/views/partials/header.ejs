@@ -1,0 +1,75 @@
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width-device-width,initial-scale-1.0"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+
+
+<title>Weather</title>
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    background:linear-gradient(rgb(47,150,163),rgb(48,62,143));
+    font-family:sans-serif;
+    color:white;
+}
+
+.location, .temperature{
+    height:38vh;
+    width:50%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+
+.temperature{
+    flex-direction:column;
+}
+
+.degree-section{
+    display-flex:center;
+    align-items:center;
+    cursor:pointer;
+}
+
+.degree-section span{
+    margin:10px;
+    font-size:30px;
+}
+
+.degree-section h2{
+    font-size:40px;
+}
+
+h1{
+    font-size: 5em;
+}
+
+
+input[type=text], select {
+  width: 100%;
+  height:200px;
+  font-size:50px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+</style>
+
+</head>
+<body>

@@ -1,0 +1,40 @@
+<% include partials/header %>        
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.js"></script>
+    <style>
+        span{
+            color:black;
+            font-weight:900;
+        }
+        body{
+            background: #6A9113;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #141517, #6A9113);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #141517, #6A9113); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+    </style>
+</head>
+        
+        
+    
+    <div class="location">
+            <h1 class="location-timezone">Timezone is <span><%= timezone %></span></h1>
+        <!--<canvas class="icon" width="128" height="128"></canvas>-->
+        </div>
+        <div class="location">
+            <h1 class="location-timezone">City is <span><%= city %></span></h1>
+        </div>
+    
+    
+        <div class="temperature">
+            <div class="degree-section">
+                <h1 class="temperature-degree" style="display:inline;font-size:8em"><%= weather %><span>F</span></h1>
+            </div>
+            <div class="temperature-description"><h3>The weather is <%= summary %> in <%= city%></h3></div>
+        </div>
+    <a href="/">Go Back</a>
+    
+    <script src="server.js"></script>
+
+<% include partials/footer %>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1.DrumKit</title>
+	<link rel="stylesheet" type="text/css" href="drumKit.css">	
+</head>
+<body>
+	<div class="keys">
+		<div data-key="65" class="key">
+			<kbd>A<kbd>
+			<span class="sound">clap</span>
+		</div>
+		<div data-key="83" class="key">
+			<kbd>S<kbd>
+			<span class="sound">hithat</span>
+		</div>
+		<div data-key="68" class="key">
+			<kbd>D<kbd>
+			<span class="sound">kick</span>
+		</div>
+		<div data-key="70" class="key">
+			<kbd>F<kbd>
+			<span class="sound">openhat</span>
+		</div>
+		<div data-key="65" class="key">
+			<kbd>A<kbd>
+			<span class="sound">clap</span>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<audio data-key="65" src="sounds/clap.wav"></audio>
+	<audio data-key="83" src="sounds/hithat.wav"></audio>
+	<audio data-key="68" src="sounds/kick.wav"></audio>
+	<audio data-key="70" src="sounds/openhat.wav"></audio>
+	<audio data-key="65" src="sounds/clap.wav"></audio>
+
+<script>
+	window.addEventListener('keydown',function(e{
+		console.log(e.keyCode);
+
+	});
+</script>
+
+
+
+</body>
+</html>

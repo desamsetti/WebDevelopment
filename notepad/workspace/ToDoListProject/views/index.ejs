@@ -1,0 +1,18 @@
+<% include partials/header %>
+
+<% allToDosFound.forEach(function(eachToDo){%>
+
+<div id="container">
+<ul>
+        <h2 style="display:inline"><%= eachToDo["toDoContent"] %></h2>
+        <a class="btn btn-xs btn-warning" href="/showAllToDos/<%= eachToDo._id %>/edit" style="display:inline">Edit</a>
+        <form class="delete-form" action="/showAllToDos/<%= eachToDo._id %>?_method=DELETE" method="POST" style="display:inline">
+            <input type="submit" class="btn btn-xs btn-danger" value="Delete">
+        </form>
+</ul>
+</div>
+    
+<% }) %>
+
+
+<% include partials/footer %>
